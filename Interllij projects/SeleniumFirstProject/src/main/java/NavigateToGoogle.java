@@ -19,7 +19,7 @@ public class NavigateToGoogle {
             searchTextbox.sendKeys("Sri Lanka");
             Thread.sleep(1000);
             searchTextbox.clear();
-            searchTextbox.sendKeys("America");
+            searchTextbox.sendKeys("canada");
             Thread.sleep(3000);
             searchTextbox.sendKeys(Keys.ENTER);
             System.out.println("Hello World!");
