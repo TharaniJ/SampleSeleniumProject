@@ -22,7 +22,7 @@ public class SearchGoogle {
             searchTextbox.sendKeys("Sri Lanka");
             Thread.sleep(1000);
             searchTextbox.clear();
-            searchTextbox.sendKeys("America");
+            searchTextbox.sendKeys("Canada");
             Thread.sleep(3000);
             searchTextbox.sendKeys(Keys.ENTER);
             System.out.println("Hello World!");
