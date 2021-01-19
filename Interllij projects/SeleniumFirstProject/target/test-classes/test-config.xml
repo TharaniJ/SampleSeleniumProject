@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="SeleniumFirstProject" verbose="1">
-    <test name="MvnProject.NavigateToGoogle" >
+    <test name="Validate-navigate-to-google" >
         <classes>
-            <class name="MvnProject.NavigateToGoogle">
+            <class name="mvn.NavigateToGoogle">
                 <methods>
                     <include name="SearchGoogle"/>
                     <include name="HelloWorld"/>
@@ -12,9 +12,9 @@
             </class>
         </classes>
     </test>
-    <test name="Validate-The-Total-No-Of-Row-In-The-Table" >
+    <test name="Validate-The-Valid-Login" >
         <classes>
-            <class name="MvnProject.AutomateMoodle">
+            <class name="mvn.AutomateMoodle">
                 <methods>
                     <include name="validateLogInToMoodleWithValidCredential"/>
                 </methods>

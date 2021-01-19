@@ -1,4 +1,4 @@
-package MvnProject;
+package mvn;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -42,11 +42,12 @@ public class NavigateToGoogle {
             searchTextbox.sendKeys(Keys.ENTER);
 
         } catch (Exception e) {
-            LOGGERS.info("Error occurred in closing the file: " + e.getMessage());
+            LOGGERS.info("Error occurred: " + e.getMessage());
         }
     }
 
-    @Test(priority = 2)
+
+    @Test(priority = 3)
     public void HelloWorld(){
 
         LOGGERS.info("Hello world!");

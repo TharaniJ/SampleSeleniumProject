@@ -1,4 +1,4 @@
-package MvnProject;
+package mvn;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -33,16 +32,19 @@ public class AutomateMoodle {
 
             //Navigate to the moodle site
             webDriver.get("https://school.moodledemo.net/");
+            LOGGERS.info("Navigated to moodle");
             //maximize the window
             webDriver.manage().window().maximize();
             //click on login link
             webDriver.findElement(By.linkText("Log in")).click();
+            LOGGERS.info("clicked on login");
             Thread.sleep(2000);
 
             //login to the moodle
             webDriver.findElement(By.id("username")).sendKeys("student");
             webDriver.findElement(By.id("password")).sendKeys("moodle");
             webDriver.findElement(By.id("loginbtn")).click();
+            LOGGERS.info("Entered Username, Password and Clicked Login button");
             Thread.sleep(2000);
 
             //logout from moodle
@@ -52,6 +54,7 @@ public class AutomateMoodle {
 
             WebElement logOutLink = webDriver.findElement(By.id("actionmenuaction-6"));
             logOutLink.click();
+            LOGGERS.info("Logged out moodle site");
             Thread.sleep(5000);
 
         } catch (Exception e) {
