@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumFirstProject" verbose="1">
+    <test name="MvnProject.NavigateToGoogle" >
+        <classes>
+            <class name="MvnProject.NavigateToGoogle">
+                <methods>
+                    <include name="SearchGoogle"/>
+                    <include name="HelloWorld"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Validate-The-Total-No-Of-Row-In-The-Table" >
+        <classes>
+            <class name="MvnProject.AutomateMoodle">
+                <methods>
+                    <include name="validateLogInToMoodleWithValidCredential"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
