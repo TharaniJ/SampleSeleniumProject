@@ -61,7 +61,6 @@ public class AutomateMoodle {
             LOGGERS.info("Error occurred in closing the file: " + e.getMessage());
 
         }
-
     }
     @AfterClass
     public void CloseWebDriver() {

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SeleniumFirstProject" class="navigator-link">
-              <span class="suite-name border-passed">SeleniumFirstProject</span>
+              <span class="suite-name border-failed">SeleniumFirstProject</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-SeleniumFirstProject" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SeleniumFirstProject" class="hide-methods failed suite-SeleniumFirstProject"> (hide)</a> <!-- hide-methods failed suite-SeleniumFirstProject -->
+                      <a href="#" panel-name="suite-SeleniumFirstProject" class="show-methods failed suite-SeleniumFirstProject"> (show)</a> <!-- show-methods failed suite-SeleniumFirstProject -->
+                    </span>
+                    <div class="method-list-content failed suite-SeleniumFirstProject">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumFirstProject" title="mvn.PrioritiesInTestNG" class="method navigator-link" hash-for-method="peformSeachAndClick1stLink">peformSeachAndClick1stLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SeleniumFirstProject -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -111,6 +125,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SeleniumFirstProject" title="mvn.PrioritiesInTestNG" class="method navigator-link" hash-for-method="launchGoogle">launchGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SeleniumFirstProject" title="mvn.AutomateMoodle" class="method navigator-link" hash-for-method="validateLogInToMoodleWithValidCredential">validateLogInToMoodleWithValidCredential</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -126,6 +145,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SeleniumFirstProject" class="panel SeleniumFirstProject">
+          <div class="suite-SeleniumFirstProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mvn.PrioritiesInTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="peformSeachAndClick1stLink">
+                  </a> <!-- peformSeachAndClick1stLink -->
+                  <span class="method-name">peformSeachAndClick1stLink</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: Purposefully failing it expected [true] but found [false]
+	at mvn.PrioritiesInTestNG.peformSeachAndClick1stLink(PrioritiesInTestNG.java:38)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+... Removed 24 stack frames<br/> java.lang.AssertionError: Purposefully failing it expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at mvn.PrioritiesInTestNG.peformSeachAndClick1stLink(PrioritiesInTestNG.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertTrue(Assert.java:42)<br>mvn.PrioritiesInTestNG.peformSeachAndClick1stLink(PrioritiesInTestNG.java:38)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.base/java.lang.reflect.Method.invoke(Method.java:566)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br>org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumFirstProject-class-failed -->
           <div class="suite-SeleniumFirstProject-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -144,6 +222,21 @@
                   <a name="SearchGoogle">
                   </a> <!-- SearchGoogle -->
                   <span class="method-name">SearchGoogle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumFirstProject-class-passed -->
+          <div class="suite-SeleniumFirstProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mvn.PrioritiesInTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchGoogle">
+                  </a> <!-- launchGoogle -->
+                  <span class="method-name">launchGoogle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,6 +285,16 @@
       &lt;/class&gt; &lt;!-- mvn.AutomateMoodle --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Validate-The-Valid-Login --&gt;
+  &lt;test name=&quot;Validate-priorities_in_test_NG&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mvn.PrioritiesInTestNG&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchGoogle&quot;/&gt;
+          &lt;include name=&quot;peformSeachAndClick1stLink&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- mvn.PrioritiesInTestNG --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate-priorities_in_test_NG --&gt;
 &lt;/suite&gt; &lt;!-- SeleniumFirstProject --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,6 +310,9 @@
               </li>
               <li>
                 <span class="test-name">Validate-The-Valid-Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate-priorities_in_test_NG (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,24 +338,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateLogInToMoodleWithValidCredential')
 data.setCell(0, 2, 'mvn.AutomateMoodle')
-data.setCell(0, 3, 21707);
+data.setCell(0, 3, 22896);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'SearchGoogle')
 data.setCell(1, 2, 'mvn.NavigateToGoogle')
-data.setCell(1, 3, 10402);
+data.setCell(1, 3, 12508);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'HelloWorld')
-data.setCell(2, 2, 'mvn.NavigateToGoogle')
-data.setCell(2, 3, 2);
+data.setCell(2, 1, 'launchGoogle')
+data.setCell(2, 2, 'mvn.PrioritiesInTestNG')
+data.setCell(2, 3, 2315);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'peformSeachAndClick1stLink')
+data.setCell(3, 2, 'mvn.PrioritiesInTestNG')
+data.setCell(3, 3, 109);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HelloWorld')
+data.setCell(4, 2, 'mvn.NavigateToGoogle')
+data.setCell(4, 3, 1);
 window.suiteTableData['SeleniumFirstProject']= { tableData: data, tableDiv: 'times-div-SeleniumFirstProject'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-SeleniumFirstProject">
               </div> <!-- times-div-SeleniumFirstProject -->
             </div> <!-- times-div -->
@@ -264,9 +378,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SeleniumFirstProject" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">mvn.PrioritiesInTestNG</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FaceBookPageTitleVerification</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-SeleniumFirstProject" class="panel">
@@ -282,30 +403,51 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">SearchGoogle</span>
-                <span class="method-start">4087 ms</span>
+                <span class="method-start">6193 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">HelloWorld</span>
-                <span class="method-start">14490 ms</span>
+                <span class="method-start">18702 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">CloseWebDriver</span>
-                <span class="method-start">14492 ms</span>
+                <span class="method-start">18703 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">mvn.AutomateMoodle</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">InitiateWebDriver</span>
-                <span class="method-start">15367 ms</span>
+                <span class="method-start">19643 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateLogInToMoodleWithValidCredential</span>
-                <span class="method-start">18922 ms</span>
+                <span class="method-start">23154 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">CloseWebDriver</span>
-                <span class="method-start">40629 ms</span>
+                <span class="method-start">46050 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mvn.PrioritiesInTestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">InitiateWebDriver</span>
+                <span class="method-start">46954 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">launchGoogle</span>
+                <span class="method-start">50604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">peformSeachAndClick1stLink</span>
+                <span class="method-start">52920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseWebDriver</span>
+                <span class="method-start">53036 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

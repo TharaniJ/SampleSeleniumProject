@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.309 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 55.311 s <<< FAILURE! - in TestSuite
+peformSeachAndClick1stLink(mvn.PrioritiesInTestNG)  Time elapsed: 0.116 s  <<< FAILURE!
+java.lang.AssertionError: Purposefully failing it expected [true] but found [false]
+	at mvn.PrioritiesInTestNG.peformSeachAndClick1stLink(PrioritiesInTestNG.java:38)
+

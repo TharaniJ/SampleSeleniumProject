@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumFirstProject]" verbose="0">
+  <test name="Validate-priorities_in_test_NG(failed)">
+    <classes>
+      <class name="mvn.PrioritiesInTestNG">
+        <methods>
+          <include name="peformSeachAndClick1stLink"/>
+          <include name="InitiateWebDriver"/>
+          <include name="CloseWebDriver"/>
+        </methods>
+      </class> <!-- mvn.PrioritiesInTestNG -->
+      <class name="mvn.NavigateToGoogle">
+        <methods>
+          <include name="InitiateWebDriver"/>
+          <include name="CloseWebDriver"/>
+        </methods>
+      </class> <!-- mvn.NavigateToGoogle -->
+      <class name="mvn.AutomateMoodle">
+        <methods>
+          <include name="CloseWebDriver"/>
+          <include name="InitiateWebDriver"/>
+        </methods>
+      </class> <!-- mvn.AutomateMoodle -->
+    </classes>
+  </test> <!-- Validate-priorities_in_test_NG(failed) -->
+</suite> <!-- Failed suite [SeleniumFirstProject] -->

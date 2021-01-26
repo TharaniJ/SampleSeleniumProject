@@ -21,4 +21,14 @@
             </class>
         </classes>
     </test>
+    <test name="Validate-priorities_in_test_NG" >
+        <classes>
+            <class name="mvn.PrioritiesInTestNG">
+                <methods>
+                    <include name="launchGoogle"/>
+                    <include name="peformSeachAndClick1stLink"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

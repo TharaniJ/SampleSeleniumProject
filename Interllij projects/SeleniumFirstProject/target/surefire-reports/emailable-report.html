@@ -31,17 +31,22 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Validate-navigate-to-google</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">15.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Validate-The-Valid-Login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">26.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validate-navigate-to-google</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">19.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Validate-The-Valid-Login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">27.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validate-priorities_in_test_NG</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">6.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">41.4 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">53.8 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Validate-navigate-to-google &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">mvn.NavigateToGoogle</td><td><a href="#m1"><b>SearchGoogle</b>  </a></td><td class="numi">1</td><td>1611062671313</td><td class="numi">10402</td></tr><tr class="passedodd"><td><a href="#m2"><b>HelloWorld</b>  </a></td><td class="numi">1</td><td>1611062681716</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td rowspan="2">mvn.NavigateToGoogle</td><td><a href="#m1"><b>SearchGoogle</b>  </a></td><td class="numi">1</td><td>1611113523499</td><td class="numi">12508</td></tr><tr class="passedodd"><td><a href="#m2"><b>HelloWorld</b>  </a></td><td class="numi">1</td><td>1611113536008</td><td class="numi">1</td></tr>
 <tr><th colspan="4">Validate-The-Valid-Login &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">mvn.AutomateMoodle</td><td><a href="#m3"><b>validateLogInToMoodleWithValidCredential</b>  </a></td><td class="numi">1</td><td>1611062686148</td><td class="numi">21707</td></tr>
+<tr class="passedodd"><td rowspan="1">mvn.AutomateMoodle</td><td><a href="#m3"><b>validateLogInToMoodleWithValidCredential</b>  </a></td><td class="numi">1</td><td>1611113540460</td><td class="numi">22896</td></tr>
+<tr><th colspan="4">Validate-priorities_in_test_NG &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">mvn.PrioritiesInTestNG</td><td><a href="#m4"><b>peformSeachAndClick1stLink</b>  </a></td><td class="numi">1</td><td>1611113570226</td><td class="numi">109</td></tr>
+<tr><th colspan="4">Validate-priorities_in_test_NG &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">mvn.PrioritiesInTestNG</td><td><a href="#m5"><b>launchGoogle</b>  </a></td><td class="numi">1</td><td>1611113567910</td><td class="numi">2315</td></tr>
 </table>
 <h1>Validate-navigate-to-google</h1>
 <h2 id="m1">mvn.NavigateToGoogle:SearchGoogle</h2>
@@ -50,5 +55,18 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>Validate-The-Valid-Login</h1>
 <h2 id="m3">mvn.AutomateMoodle:validateLogInToMoodleWithValidCredential</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validate-priorities_in_test_NG</h1>
+<h2 id="m4">mvn.PrioritiesInTestNG:peformSeachAndClick1stLink</h2>
+<div style="padding-left:3em">
+<p>Purposefully failing it expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at mvn.PrioritiesInTestNG.peformSeachAndClick1stLink(PrioritiesInTestNG.java:38)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">mvn.PrioritiesInTestNG:launchGoogle</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
