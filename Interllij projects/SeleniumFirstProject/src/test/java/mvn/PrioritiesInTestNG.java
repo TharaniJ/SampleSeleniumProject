@@ -19,7 +19,7 @@ public class PrioritiesInTestNG {
 
     @BeforeClass
     public void InitiateWebDriver() {
-        System.setProperty("webdriver.chrome.driver","C:/Tharani/Chrome Driver/chromedriver_win32/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/EDU/Software/chromedriver_win32/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
