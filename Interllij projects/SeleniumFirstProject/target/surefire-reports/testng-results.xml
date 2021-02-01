@@ -2,56 +2,56 @@
 <testng-results total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-20T03:31:57Z" name="SeleniumFirstProject" finished-at="2021-01-20T03:32:51Z" duration-ms="53817">
+  <suite started-at="2021-01-27T02:52:50Z" name="SeleniumFirstProject" finished-at="2021-01-27T02:53:44Z" duration-ms="54847">
     <groups>
     </groups>
-    <test started-at="2021-01-20T03:31:57Z" name="Validate-navigate-to-google" finished-at="2021-01-20T03:32:16Z" duration-ms="19573">
+    <test started-at="2021-01-27T02:52:50Z" name="Validate-navigate-to-google" finished-at="2021-01-27T02:53:09Z" duration-ms="19330">
       <class name="mvn.NavigateToGoogle">
-        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.NavigateToGoogle@1e178745]" started-at="2021-01-20T09:01:57Z" name="InitiateWebDriver" finished-at="2021-01-20T09:02:03Z" duration-ms="6190" status="PASS">
+        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.NavigateToGoogle@687e99d8]" started-at="2021-01-27T08:22:50Z" name="InitiateWebDriver" finished-at="2021-01-27T08:22:54Z" duration-ms="4086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateWebDriver -->
-        <test-method signature="SearchGoogle()[pri:0, instance:mvn.NavigateToGoogle@1e178745]" started-at="2021-01-20T09:02:03Z" name="SearchGoogle" finished-at="2021-01-20T09:02:16Z" duration-ms="12508" status="PASS">
+        <test-method signature="SearchGoogle()[pri:0, instance:mvn.NavigateToGoogle@687e99d8]" started-at="2021-01-27T08:22:54Z" name="SearchGoogle" finished-at="2021-01-27T08:23:08Z" duration-ms="14190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchGoogle -->
-        <test-method signature="HelloWorld()[pri:0, instance:mvn.NavigateToGoogle@1e178745]" started-at="2021-01-20T09:02:16Z" name="HelloWorld" finished-at="2021-01-20T09:02:16Z" duration-ms="1" status="PASS">
+        <test-method signature="HelloWorld()[pri:0, instance:mvn.NavigateToGoogle@687e99d8]" started-at="2021-01-27T08:23:08Z" name="HelloWorld" finished-at="2021-01-27T08:23:08Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HelloWorld -->
-        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.NavigateToGoogle@1e178745]" started-at="2021-01-20T09:02:16Z" name="CloseWebDriver" finished-at="2021-01-20T09:02:16Z" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.NavigateToGoogle@687e99d8]" started-at="2021-01-27T08:23:08Z" name="CloseWebDriver" finished-at="2021-01-27T08:23:09Z" duration-ms="1042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseWebDriver -->
       </class> <!-- mvn.NavigateToGoogle -->
     </test> <!-- Validate-navigate-to-google -->
-    <test started-at="2021-01-20T03:32:16Z" name="Validate-The-Valid-Login" finished-at="2021-01-20T03:32:44Z" duration-ms="27293">
+    <test started-at="2021-01-27T02:53:09Z" name="Validate-The-Valid-Login" finished-at="2021-01-27T02:53:37Z" duration-ms="27526">
       <class name="mvn.AutomateMoodle">
-        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.AutomateMoodle@a1cdc6d]" started-at="2021-01-20T09:02:16Z" name="InitiateWebDriver" finished-at="2021-01-20T09:02:20Z" duration-ms="3510" status="PASS">
+        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.AutomateMoodle@76ed1b7c]" started-at="2021-01-27T08:23:09Z" name="InitiateWebDriver" finished-at="2021-01-27T08:23:13Z" duration-ms="3544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateWebDriver -->
-        <test-method signature="validateLogInToMoodleWithValidCredential()[pri:0, instance:mvn.AutomateMoodle@a1cdc6d]" started-at="2021-01-20T09:02:20Z" name="validateLogInToMoodleWithValidCredential" finished-at="2021-01-20T09:02:43Z" duration-ms="22896" status="PASS">
+        <test-method signature="validateLogInToMoodleWithValidCredential()[pri:0, instance:mvn.AutomateMoodle@76ed1b7c]" started-at="2021-01-27T08:23:13Z" name="validateLogInToMoodleWithValidCredential" finished-at="2021-01-27T08:23:35Z" duration-ms="22951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogInToMoodleWithValidCredential -->
-        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.AutomateMoodle@a1cdc6d]" started-at="2021-01-20T09:02:43Z" name="CloseWebDriver" finished-at="2021-01-20T09:02:44Z" duration-ms="885" status="PASS">
+        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.AutomateMoodle@76ed1b7c]" started-at="2021-01-27T08:23:35Z" name="CloseWebDriver" finished-at="2021-01-27T08:23:37Z" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseWebDriver -->
       </class> <!-- mvn.AutomateMoodle -->
     </test> <!-- Validate-The-Valid-Login -->
-    <test started-at="2021-01-20T03:32:44Z" name="Validate-priorities_in_test_NG" finished-at="2021-01-20T03:32:51Z" duration-ms="6857">
+    <test started-at="2021-01-27T02:53:37Z" name="Validate-priorities_in_test_NG" finished-at="2021-01-27T02:53:44Z" duration-ms="7894">
       <class name="mvn.PrioritiesInTestNG">
-        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.PrioritiesInTestNG@68567e20]" started-at="2021-01-20T09:02:44Z" name="InitiateWebDriver" finished-at="2021-01-20T09:02:47Z" duration-ms="3650" status="PASS">
+        <test-method is-config="true" signature="InitiateWebDriver()[pri:0, instance:mvn.PrioritiesInTestNG@fd07cbb]" started-at="2021-01-27T08:23:37Z" name="InitiateWebDriver" finished-at="2021-01-27T08:23:40Z" duration-ms="3494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitiateWebDriver -->
-        <test-method signature="launchGoogle()[pri:0, instance:mvn.PrioritiesInTestNG@68567e20]" started-at="2021-01-20T09:02:47Z" name="launchGoogle" finished-at="2021-01-20T09:02:50Z" duration-ms="2315" status="PASS">
+        <test-method signature="launchGoogle()[pri:0, instance:mvn.PrioritiesInTestNG@fd07cbb]" started-at="2021-01-27T08:23:40Z" name="launchGoogle" finished-at="2021-01-27T08:23:43Z" duration-ms="3444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchGoogle -->
-        <test-method signature="peformSeachAndClick1stLink()[pri:0, instance:mvn.PrioritiesInTestNG@68567e20]" started-at="2021-01-20T09:02:50Z" name="peformSeachAndClick1stLink" finished-at="2021-01-20T09:02:50Z" duration-ms="109" status="FAIL">
+        <test-method signature="peformSeachAndClick1stLink()[pri:0, instance:mvn.PrioritiesInTestNG@fd07cbb]" started-at="2021-01-27T08:23:43Z" name="peformSeachAndClick1stLink" finished-at="2021-01-27T08:23:44Z" duration-ms="132" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Purposefully failing it expected [true] but found [false]]]>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- peformSeachAndClick1stLink -->
-        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.PrioritiesInTestNG@68567e20]" started-at="2021-01-20T09:02:50Z" name="CloseWebDriver" finished-at="2021-01-20T09:02:51Z" duration-ms="774" status="PASS">
+        <test-method is-config="true" signature="CloseWebDriver()[pri:0, instance:mvn.PrioritiesInTestNG@fd07cbb]" started-at="2021-01-27T08:23:44Z" name="CloseWebDriver" finished-at="2021-01-27T08:23:44Z" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseWebDriver -->

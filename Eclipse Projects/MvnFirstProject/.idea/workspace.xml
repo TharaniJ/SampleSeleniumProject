@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14210a37-9fcb-444d-922a-4a233de13cc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_create_meta_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_core_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_expressions_10_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_java_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_junit_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_cucumber_plugin_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_datatable_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_docstring_6_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_html_formatter_9_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_messages_13_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__io_cucumber_tag_expressions_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_slf4j_slf4j_jdk14_1_7_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_testng_testng_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenproject/mavenproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../myproject/KarateFirstProject/src/test/java/examples/petstore/user/bestpractice/CreateUserRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/src/test/java/mvn/AutomateMoodle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/src/test/java/mvn/AutomateMoodle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-The-Valid-Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-The-Valid-Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-The-Valid-Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-The-Valid-Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-navigate-to-google.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-navigate-to-google.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-navigate-to-google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-navigate-to-google.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-priorities_in_test_NG.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-priorities_in_test_NG.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-priorities_in_test_NG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/Validate-priorities_in_test_NG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/SeleniumFirstProject/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.AutomateMoodle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.AutomateMoodle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.NavigateToGoogle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.NavigateToGoogle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.PrioritiesInTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/junitreports/TEST-mvn.PrioritiesInTestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/SeleniumFirstProject/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interllij projects/SeleniumFirstProject/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myproject/KarateFirstProject/src/test/java/examples/petstore/user/GetUserByName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../myproject/KarateFirstProject/src/test/java/examples/petstore/user/GetUserByName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myproject/KarateFirstProject/target/surefire-reports/src.test.java.examples.petstore.user.GetUserByName.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../myproject/KarateFirstProject/target/surefire-reports/src.test.java.examples.petstore.user.GetUserByName.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../myproject/KarateFirstProject/target/test-classes/examples/petstore/user/GetUserByName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../myproject/KarateFirstProject/target/test-classes/examples/petstore/user/GetUserByName.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ndPDtScFiJBmrrC9Q3H5tX9rCE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14210a37-9fcb-444d-922a-4a233de13cc8" name="Default Changelist" comment="" />
+      <created>1611716877872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611716877872</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

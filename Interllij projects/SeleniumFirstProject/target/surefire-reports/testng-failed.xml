@@ -3,13 +3,6 @@
 <suite name="Failed suite [SeleniumFirstProject]" verbose="0">
   <test name="Validate-priorities_in_test_NG(failed)">
     <classes>
-      <class name="mvn.PrioritiesInTestNG">
-        <methods>
-          <include name="peformSeachAndClick1stLink"/>
-          <include name="InitiateWebDriver"/>
-          <include name="CloseWebDriver"/>
-        </methods>
-      </class> <!-- mvn.PrioritiesInTestNG -->
       <class name="mvn.NavigateToGoogle">
         <methods>
           <include name="InitiateWebDriver"/>
@@ -22,6 +15,13 @@
           <include name="InitiateWebDriver"/>
         </methods>
       </class> <!-- mvn.AutomateMoodle -->
+      <class name="mvn.PrioritiesInTestNG">
+        <methods>
+          <include name="peformSeachAndClick1stLink"/>
+          <include name="InitiateWebDriver"/>
+          <include name="CloseWebDriver"/>
+        </methods>
+      </class> <!-- mvn.PrioritiesInTestNG -->
     </classes>
   </test> <!-- Validate-priorities_in_test_NG(failed) -->
 </suite> <!-- Failed suite [SeleniumFirstProject] -->

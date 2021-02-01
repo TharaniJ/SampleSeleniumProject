@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class AutomateMoodle {
     Logger LOGGERS = LoggerFactory.getLogger(AutomateMoodle.class);
     WebDriver webDriver;
